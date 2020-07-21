@@ -14,6 +14,12 @@ class MallApplicationTests {
 
     @Autowired
     private CategoryMapper categoryMapper;
+
+    @Test
+    public void load() {
+
+    }
+
     @Test
     void contextLoads() {
         Category category = categoryMapper.queryById(100001);
